@@ -20,7 +20,7 @@ header
 .sticky-container{
   box-shadow: 0 2px 3px rgba(0,0,0,0.3);
   background-color: #CFD8DC;
-  /*background-color: #FFECB3;*/
+  /*background-color: #B2EBF2;*/
 }
 
 .header a{
@@ -55,7 +55,7 @@ top-bar
 .top-bar,
 .top-bar ul.menu{
   background-color: #CFD8DC;
-  /*background-color: #FFECB3;*/
+  /*background-color: #B2EBF2;*/
   font-size: 14px;
 }
 
@@ -76,7 +76,7 @@ top-bar
 .top-bar .active>a{
   border-radius: 5px;
   box-shadow: 0 2px 3px rgba(0,0,0,0.3);
-  background-color: #FFC107;
+  background-color: #00BCD4;
   font-weight: 600;
   color: #000;
 }
@@ -92,7 +92,7 @@ top-bar
   border-radius: 0;
   border: 0;
   box-shadow: 0 2px 3px rgba(0,0,0,0.3);
-  background-color: #FFECB3;
+  background-color: #B2EBF2;
 }
 
 min-height: 0 !important;
@@ -113,7 +113,7 @@ ul.is-drilldown-submenu{
 li.is-dropdown-submenu-item.active>a{
   border-radius: 0;
   box-shadow: 0 0 0;
-  background-color: #FFC107;
+  background-color: #00BCD4;
   font-weight: 600;
   color: #000;
 }
@@ -161,8 +161,8 @@ h1.page-title{
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-style: solid;
-  border-color: #FFC107;
+  border-style: none;
+  border-color: #00BCD4;
 }
 
 .entry-content h4{
@@ -210,8 +210,8 @@ h1.page-title{
 
 .pageHr{
   width: 100%;
-  background-color: #FFC107;
-  border-color: #FFC107;
+  background-color: #00BCD4;
+  border-color: #00BCD4;
   border-width: 7px;
   float: left;
   padding-top: 0;
@@ -239,7 +239,7 @@ h1.page-title{
   font-size: 12px;
   content: '\f046'; /*046*/
   margin:0 10px 0 0px;
-  color: #FFC107;
+  color: #00BCD4;
 }
 
 .entry-content ol li:before {
@@ -247,7 +247,7 @@ h1.page-title{
   font-size: 12px;
   content: '\f10c';
   margin:0 10px 0px 0px;
-  color: #FFC107;
+  color: #00BCD4;
 }
 
 img.circle{
@@ -275,8 +275,8 @@ h1.single-title{
 
 .postHr{
   width: 40%;
-  background-color: #FFC107;
-  border-color: #FFC107;
+  background-color: #00BCD4;
+  border-color: #00BCD4;
   border-width: 5px;
   padding-top: 0;
 }
@@ -308,19 +308,19 @@ a .rond p{
 }
 
 .TPS{
-  background-color: #a7ffeb;
+  background-color: #84FFFF;
 }
 
 .PS{
-  background-color: #64ffda;
+  background-color: #18FFFF;
 }
 
 .MS{
-  background-color: #1de9b6;
+  background-color: #00E5FF;
 }
 
 .GS{
-  background-color: #00bfa5;
+  background-color: #00B8D4;
 }
 
 .rond-container{
@@ -382,7 +382,7 @@ label{
 .search-submit.button{
   display: inline-block;
   margin: 5px;
-  background-color: #FFC107;
+  background-color: #00BCD4;
   color: #000;
 }
 
@@ -403,8 +403,8 @@ h4.widgettitle{
 
 .widgetHr{
   width: 100%;
-  background-color: #FFC107;
-  border-color: #FFC107;
+  background-color: #00BCD4;
+  border-color: #00BCD4;
   border-width: 3px;
   padding-top: 0;
   margin-top: 0;
