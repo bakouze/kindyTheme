@@ -20,6 +20,7 @@ header
 .sticky-container{
   box-shadow: 0 2px 3px rgba(0,0,0,0.3);
   background-color: #CFD8DC;
+  height: auto;
   /*background-color: #B2EBF2;*/
 }
 
@@ -29,7 +30,7 @@ header
 }
 
 .head{
-  padding: 10px 0 0 0;
+  padding: 0 0 0 0;
   width: 100%;
   max-width: none;
 }
@@ -57,6 +58,8 @@ top-bar
   background-color: #CFD8DC;
   /*background-color: #B2EBF2;*/
   font-size: 14px;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .topbar-container{
@@ -74,15 +77,18 @@ top-bar
 }
 
 .top-bar .active>a{
-  border-radius: 5px;
-  box-shadow: 0 2px 3px rgba(0,0,0,0.3);
-  background-color: #00BCD4;
+  border-bottom: 5px solid #00BCD4;
+  /*box-shadow: 0 2px 3px rgba(0,0,0,0.3);*/
   font-weight: 600;
   color: #000;
 }
 
+.menu .active>a{
+  background: #CFD8DC;
+}
+
 .top-bar a:hover{
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   /*box-shadow: 0 2px 3px rgba(0,0,0,0.3);*/
   font-weight: 600;
   color: rgba(0,0,0,0.6);
@@ -92,11 +98,11 @@ top-bar
   border-radius: 0;
   border: 0;
   box-shadow: 0 2px 3px rgba(0,0,0,0.3);
-  background-color: #B2EBF2;
+  background-color: #FFF;
 }
 
-min-height: 0 !important;
 .is-drilldown{
+  min-height: 0 !important;
 }
 
 ul.is-drilldown-submenu{
@@ -112,8 +118,10 @@ ul.is-drilldown-submenu{
 
 li.is-dropdown-submenu-item.active>a{
   border-radius: 0;
+  border-bottom: none;
+  background-color: #FFF;
   box-shadow: 0 0 0;
-  background-color: #00BCD4;
+  /*color: #00BCD4;*/
   font-weight: 600;
   color: #000;
 }
@@ -562,7 +570,7 @@ POSTS & CONTENT STYLES
   padding: 0.85em 1em;
   margin: 0 1rem 1rem 0;
   font-size: 0.9rem;
-  background: #2199e8;
+  /*background: #2199e8;*/
   color: #fff; }
   [data-whatinput='mouse'] .post-password-form input[type="submit"] {
     outline: 0; }

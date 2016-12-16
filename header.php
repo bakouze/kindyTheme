@@ -60,14 +60,14 @@
 
               <!-- This navs will be applied to the topbar, above all content
               To see additional nav styles, visit the /parts directory -->
-              <div class="row head">
-                <div class="small-12 large-4 column text-center">
+              <div class="row align-middle head">
+                <div class="small-12 large-4 columns text-center">
                   <a href="<?php echo home_url(); ?>">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/kindy.png" alt="Kindy School" />
                     <h3 class="hideScroll">École Maternelle <small>à partir de deux ans - Nouméa</small></h3>
                   </a>
                 </div>
-                <div class="small-12 large-8 column topbar-container">
+                <div class="small-12 large-8 columns topbar-container">
                   <?php get_template_part( 'parts/nav', 'topbar' ); ?>
                 </div>
               </div>
